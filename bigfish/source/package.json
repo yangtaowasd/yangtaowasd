@@ -1,0 +1,11 @@
+{
+  "name": "deepseek-readme-animation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node render-animation.mjs --atlas ./characters.png --out ./frames"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  }
+}
